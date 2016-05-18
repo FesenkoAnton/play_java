@@ -19,9 +19,10 @@ public class DynamicClassLoading {
 		System.out.println("запустили main");
 	    new Hamster();
 	    System.out.println("одразу після створення Hamster");
+	    new Hamster();
 	    try {
 	      //Class.forName("Cat");
-	    	Class.forName("ua.com.glybovets.lecture13.Cat");
+	    	Class.forName("part2.lection11.Cat");
 	    } catch(ClassNotFoundException e) {
 	      System.out.println("Не можемо знайти Cat");
 	    }

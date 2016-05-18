@@ -25,7 +25,7 @@ public class ToyTest {
 
 	public static void main(String[] args) {
 		Class c = null;
-		try {c = Class.forName("ua.com.glybovets.lecture13.FancyToy");
+		try {c = Class.forName("part2.lection11.FancyToy");
 		} catch (ClassNotFoundException e) {
 			System.out.println("Can't find FancyToy");
 			System.exit(1);
